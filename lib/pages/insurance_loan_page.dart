@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kissan_connect/widgets/bottom.dart';
 
 class InsuranceLoanPage extends StatelessWidget {
   const InsuranceLoanPage({super.key});
@@ -47,6 +48,10 @@ class InsuranceLoanPage extends StatelessWidget {
                 description: "Improve soil fertility & productivity"),
           ],
         ),
+      ),
+      bottomNavigationBar: BottomAppBar(
+        elevation: 0,
+        child: BottomW(),
       ),
     );
   }
